@@ -68,6 +68,8 @@ function resetButtons() {
   selectionButton.addEventListener('click', selectionSort)
   insertionButton.addEventListener('click', insertionSort)
   bubbleButton.addEventListener('click', bubbleSort)
+
+  randomArrayLength.value = 0;
   // remove childs div
   resetGrid()
 }
